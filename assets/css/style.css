@@ -658,6 +658,7 @@ video {
 .site-header {
   border-bottom: 1px solid #d7d7d7;
   padding: 2.5em 0 3.33333em;
+  margin-bottom: 0.5em;
 }
 
 .site-logo,
@@ -731,21 +732,23 @@ video {
    5. Content
    ========================================================================== */
 
-.post {
-  border-bottom: 1px solid #d7d7d7;
-  padding: 3.33333em 0;
-}
+
 
 .featured-post,
 .post-date {
   display: inline-block;
   font-size: 0.77778em;
   font-weight: bold;
-  padding-bottom: 1.25em;
+  padding-bottom: 0.25em;
+  width: 10em;
 }
 
 .post-date {
   color: #9ba6ad;
+}
+
+.media-break {
+  display: none;
 }
 
 .featured-post {
@@ -753,13 +756,10 @@ video {
   padding-right: 5px;
 }
 
-.post-header {
-  margin-bottom: 1.66667em;
-}
-
 .post-title {
-  font-size: 2em;
+  font-size: 1.7em;
   margin-bottom: 0.55556em;
+  margin-left: 0.55556em;
 }
 
 .post-title a {
@@ -1071,6 +1071,9 @@ a.back-to-top:hover {
   .site-title {
     font-size: 1.625em;
   }
+  .media-break {
+    display: block;
+  }
   h2 {
     font-size: 1.5em;
   }
@@ -1112,6 +1115,7 @@ a.back-to-top:hover {
   .page-title {
     font-size: 1.5em;
   }
+
   .page-description {
     font-size: 1.125em;
     margin-top: 1.66667em;
@@ -1124,7 +1128,7 @@ a.back-to-top:hover {
 @media only screen and (max-width: 480px) {
   h1,
   .post-title {
-    font-size: 1.625em;
+    font-size: 1em;
   }
   h2 {
     font-size: 1.375em;
@@ -1134,8 +1138,8 @@ a.back-to-top:hover {
     padding-top: 1.875em;
   }
   .post {
-    padding-bottom: 2.5em;
-    padding-top: 2.5em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
   }
   .author-box .author-avatar {
     float: none;
