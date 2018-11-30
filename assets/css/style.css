@@ -999,6 +999,9 @@ a.back-to-top:hover {
   text-decoration: none;
 }
 
+.rc-scout {
+  font-size: 0.66667em;
+}
 /* ==========================================================================
    9. Media Queries
    ========================================================================== */
@@ -1099,7 +1102,7 @@ a.back-to-top:hover {
   .newer-posts {
     top: 2.22222em;
   }
-  .site-info {
+  .site-info, .rc-scout {
     font-size: 0.75em;
   }
 }
